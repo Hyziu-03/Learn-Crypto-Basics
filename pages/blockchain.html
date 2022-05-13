@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>What Is A Blockchain?</title>
+
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/page.css">
+</head>
+
+<body>
+    <a href="javascript: history.back()" class="go-back"><img src="../assets/arrow.png" class="arrow"></a>
+    <main class="container">
+        <h1 class="heading" tabindex="0">What is a Blockchain?</h1>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">The Problem Of Trust And Agency</h2>
+            <p class="paragraph">A blockchain is a new way to store data. Rather than
+                centralising information, and the control over it, in one place, blockchains store it across a network
+                where no one point has the authority to change records, This is
+                called decentralisation. Blockchain's record data - in blocks - and
+                securely store this data by chaining those blocks together using cryptography, hence
+                a block-chain.</p>
+            <p class="paragraph">Monarchs, generals, governments or multinational
+                institutions have the final say on, and control over, what's fair,who owns what assets, and what
+                those assets are worth. This arrangement has been more practical than optimal.</p>
+            <p class="paragraph">Time and again, we have seen that trusting a central
+                authority is a less than efficient way to do things - I'm looking at you, 2008 Financial Crisis.
+                This is commonly known as the Principal-Agent Problem.</p>
+            <p class="paragraph">Agents make decisions that impact other people
+                who's interests they should be serving. Their powerful position and the absence of accountability
+                mean their decisions that serve their own interests and adversely impact those they should be serving.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">The Unique Characteristics Of A
+                Blockchain</h2>
+            <p class="paragraph">Each block in a blockchain (barring
+                the genesis block or first block) contains three things.
+                Data - The data recorded on a blockchain can vary depending on what
+                is using the technology. For example, as a currency, Bitcoin uses a blockchain to record it's
+                transaction data - which is why its referred to as a ledger.</p>
+            <p class="paragraph">Other uses include supply chain data management,
+                healthcare data and identity records; the sky's the limit, so long as the information can be
+                digitised. The point is that blockchains can securely store many different types of data.</p>
+            <p class="paragraph">Cryptographic Hashes - A
+                cryptographic hash is essentially a coded representation of a piece of information. It uses a
+                mathematical function to generate this representation linking the meaningful information to the hash.
+                Thus, if I were to change the information, the corresponding hash would change, as the two things are
+                inextricably linked by the hash function.</p>
+            <p class="paragraph">Timestamps - this
+                one is pretty self-explanatory,. A record of the time that an individual block of data was added to the
+                chain. Though simple, Time stamping is crucial, giving blockchains verifiable and unchangeable
+                historical reference points.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Making The Chain Unbreakable</h2>
+            <p class="paragraph">The innovation of blockchain technology is that by
+                design, blockchains are resistant to retroactive modification and can store data securely without a
+                centralised authority. The process starts with the cryptographic hash function. Each block has a hash
+                function for its own data and a hash function for the last block's data.</p>
+            <p class="paragraph">By encoding the previous block's data into each
+                new block, the hashes create a chain that is it grows becomes ever harder to corrupt.; to tamper with,
+                or modify any particular block's data, you would also have to modify all subsequent blocks to keep
+                the chain valid.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Enter Proof-Of-Work</h2>
+            <p class="paragraph">Essentially, proof-of-work
+                is a mechanism that slows down the creation of new blocks by requiring work/effort be exerted before a
+                block is produced. You can think of it as a way of discouraging people from trying to mess up the
+                blockchain. You’d have to spend or exert more effort than could be justified by doing it.</p>
+            <p class="paragraph">This proof-of-work process is regulated to ensure
+                blocks are created at an average time-period called the block time (this period differs from chain to
+                chain). Bitcoin uses Proof-of-Work as its consensus mechanism but there are two common approaches
+                Proof-of-Stake and Delegated-Proof-of-Stake.</p>
+            <p class="paragraph">These mechanisms are slightly more complicated and are
+                aiming to be a more efficient way of making blockchains reliably secure but without the requirement for
+                the work, which essentially comes down to computing power and energy consumption.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">How Is Consensus Achieved?</h2>
+            <p class="paragraph">The final way that blockchain's ensure security
+                is by being distributed. Blockchain's run on what's called a
+                peer-to-peer network. That is a network of users
+                that communicate directly with each other and share the same privileges.</p>
+            <p class="paragraph">Rather than being centralised and run by a single
+                entity - such as government - P2P networks are made up of a distributed network of computers all
+                following the same set of rules (protocol)., In this way, everyone of those computers connected to the
+                blockchain has access to the full record (or chain) but behaves in a predictable way.</p>
+            <p class="paragraph">Each time a new block is added to the chain, everyone
+                has the chance to verify this block’s data as accurate. Any computer that connects and runs a blockchain
+                is called a node. For a block to be added to the chain at least 51% of all
+                nodes, have to agree that it is accurate.</p>
+            <p class="paragraph">To successfully corrupt a blockchain you need to
+                tamper with all the blocks on the chain, redo the proof of work for every block and take control of more
+                than 50% of the P2P network.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Blockchain Use Cases</h2>
+            <p class="paragraph">The most famous application, and what the technology
+                was initially invented for, is a new form of money free of central control, which we now know as
+                cryptocurrency, the first and most famous example being Bitcoin. By storing all Bitcoin transaction data
+                on a blockchain, Satoshi Nakamoto created the world's first digital and
+                decentralised version of sound money.</p>
+            <p class="paragraph">In 2013, programmer, Vitalik Buterin, proposed that
+                blockchain technology could be used to create what he termed smart contracts
+                in a white paper. In 2015, the Ethereum blockchain was launched to build these contracts on top of,
+                complete with a programming language and native currency.</p>
+            <p class="paragraph">A good way to think about it is that Bitcoin gave us
+                programmable and decentralised money, and Ethereum gives us programmable and decentralised contracts.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>

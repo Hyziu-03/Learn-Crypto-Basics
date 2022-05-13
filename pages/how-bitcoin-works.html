@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>How Bitcoin Works?</title>
+
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/page.css">
+</head>
+
+<body>
+    <a href="javascript: history.back()" class="go-back"><img src="../assets/arrow.png" class="arrow"></a>
+    <main class="container">
+        <h1 class="heading" tabindex="0">How Bitcoin Works?</h1>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Cryptography and Economics</h2>
+            <p class="paragraph">Bitcoin participants may have sometimes conflicting
+                interests, but they all share the same ultimate goal - that Bitcoin succeeds. And the more parties are
+                invested in Bitcoin, the more everyone has to lose if it “breaks” - this creates a symbiotic
+                relationship, one where all parties benefit.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Design Of Bitcoin</h2>
+            <p class="paragraph">Bitcoin is a peer-to-peer network of computers all
+                following a set of rules and instructions for validating transactions and issuing new coins. Any
+                computer running any software that respects these rules can participate in the Bitcoin network. These
+                are called Bitcoin Nodes.</p>
+            <p class="paragraph">Bitcoin has a ledger of all the transactions, called
+                the Blockchain. Transactions are recorded in blocks, which are created at set
+                intervals and connect to the previous block to create a chain. There is the mechanism for adding blocks
+                to the Blockchain and reaching agreement that the transactions are valid, and the whole chain accurate.
+                This is called Mining.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Blockchain</h2>
+            <p class="paragraph">Instead of a single ledger kept locked away by a
+                central authority, Bitcoin ensures anyone can have a copy of the ledger containing all transactions that
+                ever happened. Everyone can mathematically verify that every transaction in it is legitimate.
+                Transactions that don’t respect the rules are automatically rejected by the software.</p>
+            <p class="paragraph">Bitcoin transactions are batched approximately every
+                10 minutes into a block, which is then added to a long chain of blocks containing all previous
+                transactions (hence the term blockchain). This process of adding the new blocks into this shared ledger
+                is called mining.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">How Bitcoin Mining Works?</h2>
+            <p class="paragraph">Mining involves a competition for solving a complex
+                mathematical problem, which takes on average 10 minutes and is adjusted every two weeks to account for
+                current computing power. The winner gets to add the current block of transactions and receives a reward
+                for their efforts.</p>
+            <p class="paragraph">The catch is, everyone can easily verify that the
+                solution is right. If a miner cheats, all other participants will simply discard the block. A cheater
+                would lose not just the reward, but also all the money spent in energy to mine that block. This combined
+                loss far outweighs any expected profits.</p>
+            <p class="paragraph">Although in theory anyone can participate in mining,
+                the mathematical problem is so hard, and the competition so fierce that you’d need hundreds of
+                specialised computers to even stand a chance today - which is quite an investment.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Money Supply And Inflation</h2>
+            <p class="paragraph">Mining is also the way by which new bitcoin are
+                released into the system. Transaction fees are the sum of fees paid for all
+                transactions included in that block, which vary according to demand. These are bitcoin already in
+                circulation.</p>
+            <p class="paragraph">The current reward is set at 6.25 bitcoin per block
+                until 2024. This process will continue until all 21 million BTC are out there, at which point miners
+                will only receive transaction fees.</p>
+            <p class="paragraph">There’s no way that anyone can arbitrarily create new
+                bitcoin or mess with the issuance rate unless everyone of the network agrees to change the protocol.
+                Bitcoin
+                satisfies the properties of sound money with
+                no one in charge.</p>
+            <p class="paragraph">It is durable. The architecture of the
+                blockchain makes it incredibly robust. Since every node has a copy of the ledger, destroying the
+                Bitcoin network would require that all 50,000 distributed around the world would need to be
+                destroyed at the same time, along with however many backups there are. That’s very unlikely.</p>
+            <p class="paragraph">It is divisible. Bitcoin’s smallest unit,
+                called a Satoshi, is 1/100,000,000 of one coin. In today’s values, that’s
+                orders of magnitude more precise than even the smallest microtransactions would require. However,
+                due to network fees, that level of precision isn’t currently practical - we’ll discuss this below.</p>
+            <p class="paragraph">It is fungible. All bitcoin are created equal
+                and have equal value - just like one gram of gold is equal to any other gram of gold.</p>
+            <p class="paragraph">It is portable. Bitcoin is entirely digital
+                and incredibly portable. It can be stored on a computer, mobile phone, and on paper. It can be
+                instantly transferred anywhere in the world with just an internet connection - and even without one.</p>
+        </section>
+        <section class="section">
+            <h2 class="section-heading" tabindex="0">Limitations Of Bitcoin</h2>
+            <p class="paragraph">The main limitation is the trilemma between security,
+                scalability, and decentralisation. This means that there are trade-offs when designing a network, and
+                you can’t have all three. Fiat money, for example, is very scalable and reasonably secure. On the flip
+                side, it’s completely centralised, and controlled by very few people.</p>
+            <p class="paragraph">Bitcoin, on the other hand, is designed to focus on
+                decentralisation and it’s incredibly secure. This comes at the price of scalability. Currently,
+                Bitcoin’s maximum speed hovers at around 5 transactions per second (a fraction
+                of Visa’s purported 50,000+).</p>
+            <p class="paragraph">This makes Bitcoin impractical for use at scale and
+                explains why right now it is popular as a Store of Value and less so as a
+                Medium of Exchange.</p>
+        </section>
+    </main>
+</body>
+
+</html>

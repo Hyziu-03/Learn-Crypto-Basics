@@ -81,3 +81,8 @@ html {
     text-align: center;
     color: inherit;
 }
+
+.label {
+    text-align: center;
+    padding: var(--base-size) 0;
+}

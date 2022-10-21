@@ -14,9 +14,8 @@
             "type": "image/png"
         },
         {
-            "src": "/maskable_icons/maskable_icon_x96.png",
+            "src": "/maskable_icons/maskable_icon_x96.webp",
             "sizes": "96x96",
-            "type": "image/png"
         },
         {
             "src": "/maskable_icons/maskable_icon_x128.png",
